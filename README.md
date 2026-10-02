@@ -1,20 +1,34 @@
-# Hazex — Algorithmic Stereo Reverb
+# Hazex: Algorithmic Stereo Reverb
 
-![Hazex](https://raw.githubusercontent.com/RemiBlaze/Hazex/main/hazex-ui-screenshot.png)
+![Hazex free algorithmic stereo reverb UI](https://raw.githubusercontent.com/RemiBlaze/Hazex/main/hazex-ui-screenshot.png)
 
-**A lush, atmospheric reverb for electronic music — from tight rooms to endless clouds.**
+**A lush, atmospheric reverb for electronic music, from tight rooms to endless clouds.**
 
 Hazex is a stereo reverb built on an 8-line feedback delay network with prime-length delay lines and Householder feedback mixing. It adds a pitch-shifting shimmer path, input-aware ducking, tempo-syncable pre-delay, and a modulated tail for lush, evolving spaces.
 
-Fully **signed and notarized** for macOS as **AU, VST3, and Standalone**.
+**macOS** (Apple Silicon and Intel): AU, VST3, CLAP, AAX, Standalone. Signed and notarized by Apple.
+
+**Windows** 10 and 11, 64-bit: VST3, CLAP, Standalone. Authenticode signed.
+
+AAX ships on macOS only.
 
 ---
 
 ## 🚀 Download & Install
-1. Go to the [latest release](https://github.com/RemiBlaze/Hazex/releases/latest).
-2. Download **`Hazex_Installer.pkg`**.
-3. Double-click it and follow the installer. Because it's **signed & notarized by Apple**, it installs cleanly — no security warnings, no right-click, no "Open Anyway."
-4. Restart your DAW and rescan plug-ins.
+
+Go to the [latest release](https://github.com/RemiBlaze/Hazex/releases/latest) and pick your platform.
+
+**macOS**
+1. Download **`Hazex_Installer.pkg`**.
+2. Double-click it and follow the installer. It is signed and notarized by Apple, so it installs cleanly with no security warnings.
+3. Restart your DAW and rescan plug-ins. Hazex appears under **Remi Blaze**.
+
+**Windows 10 and 11, 64-bit**
+1. Download **`Hazex_Installer.exe`**.
+2. Run it and follow the installer. It is Authenticode signed.
+3. Restart your DAW and rescan plug-ins. Hazex appears under **Remi Blaze**.
+
+No dongle and no extra account on either platform.
 
 Full guide: **[remiblaze.com/support](https://remiblaze.com/support/)**.
 
@@ -42,7 +56,7 @@ Full guide: **[remiblaze.com/support](https://remiblaze.com/support/)**.
 | Shimmer | 0–100% | 0% | Pitch-shifted feedback for octave-up shimmer tails |
 | Swell | 0–100% | 0% | Bar-synced upward swell of the wet mix |
 | Reverse Bloom | 0–100% | 0% | Reversed, blooming envelope on the reverb |
-| Freeze | On / Off | Off | Infinite sustain — holds the current tail |
+| Freeze | On / Off | Off | Infinite sustain, holds the current tail |
 | Mix | 0–100% | 25% | Dry/wet blend |
 | Output | −24 to +6 dB | −0.5 dB | Output level |
 | Bypass | On / Off | Off | Bypass all processing |
@@ -58,14 +72,20 @@ Plus a factory preset menu, **Save/Load** of user `.preset` files, and a **Rando
 - **LFO-modulated delay lengths** (Haziness) give the tail continuous movement.
 - **Input-aware ducking** with adjustable sensitivity for vocals and busy mixes.
 - **Tempo-syncable pre-delay** for rhythmic placement of the reverb.
-- **Universal Binary** — native on Apple Silicon and Intel.
+- **Universal Binary**: native on Apple Silicon and Intel.
 
 ---
 
 ## 💻 System Requirements
+
+**macOS**
 - macOS 15.0 or later
 - Apple Silicon or Intel Mac (Universal Binary)
-- Any AU or VST3 host (your DAW of choice)
+- An AU, VST3, CLAP or AAX host
+
+**Windows**
+- Windows 10 or Windows 11, 64-bit
+- A VST3 or CLAP host
 
 ---
 
@@ -98,11 +118,12 @@ Plus a factory preset menu, **Save/Load** of user `.preset` files, and a **Rando
 ---
 
 ## 🐛 Bugs & Issues
-Open an issue on the **[Issues](https://github.com/RemiBlaze/Hazex/issues)** tab with your macOS version, DAW + version, and steps to reproduce.
+Open an issue on the **[Issues](https://github.com/RemiBlaze/Hazex/issues)** tab with your macOS or Windows version, DAW + version, and steps to reproduce.
 
 ---
 
 ## 📄 License & Credits
+- **Plugin page:** [remiblaze.com/plugins/hazex/](https://remiblaze.com/plugins/hazex/).
 - **Developer:** [Remi Blaze](https://remiblaze.com).
 - **Framework:** [JUCE](https://juce.com).
 - **License:** free under a proprietary [Freeware License](LICENSE) (see also our [terms](https://remiblaze.com/terms/)). Reverse-engineering, repackaging, binary redistribution, or reselling the compiled installer is strictly prohibited.
@@ -116,3 +137,7 @@ All product names, company names, and logos mentioned herein are trademarks or r
 VST is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries.
 
 Apple, macOS, Audio Units (AU), and Apple Silicon are trademarks of Apple Inc., registered in the U.S. and other countries.
+
+AAX, Avid, and Pro Tools are trademarks or registered trademarks of Avid Technology, Inc. in the U.S. and other countries.
+
+Microsoft and Windows are trademarks of the Microsoft group of companies.
